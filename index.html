@@ -1,0 +1,2778 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Painter Services | Interior & Exterior Painting in Karachi</title>
+    <meta name="description" content="Wall Painter Services provides residential and commercial wall painting, repainting and interior/exterior painting services in Laloo Khait, Liaquatabad Town, Karachi.">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Wall Painter Services | Interior & Exterior Painting in Karachi">
+    <meta property="og:description" content="Professional interior, exterior, house, and commercial wall painting services in Karachi. Direct contact via WhatsApp & Phone.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Inline Stylesheet -->
+    <style>
+        /* ==========================================
+           1. CSS VARIABLES & RESET
+           ========================================== */
+        :root {
+            /* New refined palette - warm professional */
+            --brand-900: #0B1D2A;
+            --brand-800: #12303F;
+            --brand-700: #1B4B5A;
+            --brand-600: #246B7E;
+            --brand-500: #2E8BA3;
+            --brand-400: #4FA8BE;
+            --brand-300: #7FC4D4;
+            --brand-200: #B4DCE6;
+            --brand-100: #E0F1F6;
+            --brand-50:  #F2F9FB;
+
+            --gold-600: #B8860B;
+            --gold-500: #D4A017;
+            --gold-400: #E6B943;
+            --gold-300: #F0D078;
+            --gold-200: #F7E5B0;
+            --gold-100: #FCF3D9;
+
+            --warm-900: #2D1E12;
+            --warm-700: #6B4C2F;
+            --warm-500: #A67C52;
+            --warm-300: #D4B896;
+            --warm-100: #F5EDE3;
+
+            --ink: #0F172A;
+            --ink-soft: #334155;
+            --ink-muted: #64748B;
+            --ink-light: #94A3B8;
+
+            --surface: #FFFFFF;
+            --surface-alt: #F8FAFC;
+            --surface-warm: #FDFBF7;
+            --border: #E2E8F0;
+            --border-warm: #EDE4D8;
+
+            --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.04);
+            --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.06);
+            --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08);
+            --shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.12);
+            --shadow-xl: 0 24px 60px rgba(15, 23, 42, 0.16);
+            --shadow-brand: 0 12px 32px rgba(46, 139, 163, 0.25);
+            --shadow-gold: 0 12px 32px rgba(212, 160, 23, 0.3);
+
+            --radius-xs: 6px;
+            --radius-sm: 10px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --radius-xl: 32px;
+            --radius-full: 999px;
+
+            --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+            --font-display: 'Space Grotesk', sans-serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--ink);
+            background-color: var(--surface-warm);
+            line-height: 1.65;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        button {
+            font-family: inherit;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+
+        /* ==========================================
+           2. LAYOUT UTILITIES
+           ========================================== */
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .section-pad {
+            padding: 6rem 0;
+        }
+
+        .section-pad-sm {
+            padding: 4rem 0;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Section Headers */
+        .section-head {
+            text-align: center;
+            max-width: 720px;
+            margin: 0 auto 4rem;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--brand-600);
+            background: var(--brand-50);
+            padding: 0.4rem 1rem;
+            border-radius: var(--radius-full);
+            margin-bottom: 1.25rem;
+            border: 1px solid var(--brand-100);
+        }
+
+        .eyebrow::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--brand-500);
+        }
+
+        .eyebrow.gold {
+            color: var(--gold-600);
+            background: var(--gold-100);
+            border-color: var(--gold-200);
+        }
+
+        .eyebrow.gold::before {
+            background: var(--gold-500);
+        }
+
+        .section-head h2 {
+            font-family: var(--font-display);
+            font-size: 2.75rem;
+            font-weight: 700;
+            color: var(--ink);
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
+        }
+
+        .section-head p {
+            font-size: 1.1rem;
+            color: var(--ink-muted);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .section-head h2 {
+                font-size: 2rem;
+            }
+            .section-head {
+                margin-bottom: 2.5rem;
+            }
+            .section-pad {
+                padding: 4rem 0;
+            }
+        }
+
+        /* ==========================================
+           3. BUTTONS
+           ========================================== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            padding: 0.9rem 1.75rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: var(--radius-full);
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: var(--transition);
+            white-space: nowrap;
+            font-family: var(--font-body);
+            letter-spacing: 0.2px;
+        }
+
+        .btn i {
+            font-size: 1rem;
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+            color: #fff;
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-whatsapp:hover {
+            background: #1EB855;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px rgba(37, 211, 102, 0.4);
+        }
+
+        .btn-brand {
+            background: var(--brand-700);
+            color: #fff;
+            box-shadow: var(--shadow-brand);
+        }
+
+        .btn-brand:hover {
+            background: var(--brand-800);
+            transform: translateY(-2px);
+            box-shadow: 0 16px 40px rgba(46, 139, 163, 0.35);
+        }
+
+        .btn-gold {
+            background: var(--gold-500);
+            color: #fff;
+            box-shadow: var(--shadow-gold);
+        }
+
+        .btn-gold:hover {
+            background: var(--gold-600);
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--brand-700);
+            border-color: var(--brand-200);
+        }
+
+        .btn-outline:hover {
+            background: var(--brand-700);
+            color: #fff;
+            border-color: var(--brand-700);
+            transform: translateY(-2px);
+        }
+
+        .btn-ghost {
+            background: rgba(255, 255, 255, 0.08);
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .btn-ghost:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .btn-lg {
+            padding: 1.1rem 2.25rem;
+            font-size: 1rem;
+        }
+
+        /* ==========================================
+           4. HEADER & NAV
+           ========================================== */
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(253, 251, 247, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid transparent;
+            transition: var(--transition);
+        }
+
+        .site-header.scrolled {
+            background: rgba(255, 255, 255, 0.95);
+            border-bottom-color: var(--border);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 84px;
+            transition: var(--transition);
+        }
+
+        .site-header.scrolled .nav-wrap {
+            height: 72px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.85rem;
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--ink);
+            letter-spacing: -0.01em;
+        }
+
+        .brand-mark {
+            width: 46px;
+            height: 46px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, var(--brand-600), var(--brand-800));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.25rem;
+            box-shadow: 0 6px 16px rgba(27, 75, 90, 0.3);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .brand-mark::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, transparent 40%, rgba(255,255,255,0.2) 50%, transparent 60%);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+
+        .brand:hover .brand-mark::after {
+            transform: translateX(100%);
+        }
+
+        .brand:hover .brand-mark {
+            transform: rotate(-5deg) scale(1.05);
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+        }
+
+        .brand-text .name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--ink);
+        }
+
+        .brand-text .tag {
+            font-family: var(--font-body);
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--brand-500);
+        }
+
+        .primary-nav ul {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .primary-nav a {
+            display: block;
+            padding: 0.6rem 1rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--ink-soft);
+            border-radius: var(--radius-full);
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .primary-nav a:hover,
+        .primary-nav a.active {
+            color: var(--brand-700);
+            background: var(--brand-50);
+        }
+
+        .nav-cta {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .nav-phone {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--ink);
+        }
+
+        .nav-phone i {
+            color: var(--brand-600);
+        }
+
+        /* Hamburger */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 22px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            z-index: 1001;
+            padding: 0;
+        }
+
+        .menu-toggle span {
+            width: 100%;
+            height: 2.5px;
+            background: var(--ink);
+            border-radius: 2px;
+            transition: var(--transition);
+            transform-origin: center;
+        }
+
+        .menu-toggle.open span:nth-child(1) {
+            transform: translateY(9.5px) rotate(45deg);
+        }
+        .menu-toggle.open span:nth-child(2) {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+        .menu-toggle.open span:nth-child(3) {
+            transform: translateY(-9.5px) rotate(-45deg);
+        }
+
+        @media (max-width: 1024px) {
+            .primary-nav {
+                position: fixed;
+                top: 0;
+                right: -320px;
+                width: 320px;
+                height: 100vh;
+                background: var(--surface);
+                padding: 6rem 2rem 2rem;
+                box-shadow: -10px 0 40px rgba(0,0,0,0.1);
+                transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                z-index: 1000;
+                overflow-y: auto;
+            }
+
+            .primary-nav.open {
+                right: 0;
+            }
+
+            .primary-nav ul {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.25rem;
+            }
+
+            .primary-nav a {
+                padding: 0.9rem 1.25rem;
+                font-size: 1rem;
+                border-radius: var(--radius-sm);
+            }
+
+            .menu-toggle {
+                display: flex;
+            }
+
+            .nav-cta .btn {
+                display: none;
+            }
+
+            .nav-phone {
+                display: none;
+            }
+        }
+
+        /* ==========================================
+           5. HERO SECTION
+           ========================================== */
+        .hero {
+            position: relative;
+            padding: 10rem 0 6rem;
+            background: linear-gradient(180deg, var(--brand-50) 0%, var(--surface-warm) 100%);
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -300px;
+            right: -200px;
+            width: 700px;
+            height: 700px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(79, 168, 190, 0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -300px;
+            left: -200px;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(212, 160, 23, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-grid {
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .hero-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: var(--surface);
+            padding: 0.5rem 1.1rem;
+            border-radius: var(--radius-full);
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--brand-700);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-eyebrow i {
+            color: var(--brand-500);
+            font-size: 0.85rem;
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: 3.75rem;
+            font-weight: 700;
+            color: var(--ink);
+            line-height: 1.08;
+            letter-spacing: -0.03em;
+            margin-bottom: 1.25rem;
+        }
+
+        .hero h1 .accent {
+            color: var(--brand-600);
+            position: relative;
+            display: inline-block;
+        }
+
+        .hero h1 .accent::after {
+            content: '';
+            position: absolute;
+            bottom: 8px;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: linear-gradient(90deg, var(--gold-200), var(--gold-100));
+            z-index: -1;
+            border-radius: 4px;
+        }
+
+        .hero-sub {
+            font-size: 1.15rem;
+            color: var(--ink-muted);
+            margin-bottom: 2.25rem;
+            max-width: 520px;
+            line-height: 1.7;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero-trust {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.75rem;
+            padding-top: 1.75rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--ink-soft);
+        }
+
+        .trust-item i {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: var(--brand-100);
+            color: var(--brand-600);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+        }
+
+        .hero-visual {
+            position: relative;
+        }
+
+        .hero-img-frame {
+            position: relative;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+            border: 6px solid var(--surface);
+        }
+
+        .hero-img-frame img {
+            width: 100%;
+            height: 540px;
+            object-fit: cover;
+            transition: transform 0.8s ease;
+        }
+
+        .hero-img-frame:hover img {
+            transform: scale(1.04);
+        }
+
+        .hero-float {
+            position: absolute;
+            background: var(--surface);
+            padding: 1.1rem 1.25rem;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-lg);
+            display: flex;
+            align-items: center;
+            gap: 0.9rem;
+            border: 1px solid var(--border);
+        }
+
+        .hero-float.card-1 {
+            bottom: -25px;
+            left: -25px;
+            max-width: 260px;
+            animation: floaty 5s ease-in-out infinite;
+        }
+
+        .hero-float.card-2 {
+            top: 40px;
+            right: -25px;
+            max-width: 220px;
+            animation: floaty 6s ease-in-out infinite 1s;
+        }
+
+        @keyframes floaty {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .float-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .float-icon.teal {
+            background: var(--brand-100);
+            color: var(--brand-600);
+        }
+
+        .float-icon.gold {
+            background: var(--gold-100);
+            color: var(--gold-600);
+        }
+
+        .float-text strong {
+            display: block;
+            font-size: 0.92rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 0.1rem;
+        }
+
+        .float-text span {
+            font-size: 0.78rem;
+            color: var(--ink-muted);
+        }
+
+        @media (max-width: 1024px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            .hero h1 {
+                font-size: 2.75rem;
+            }
+            .hero-img-frame img {
+                height: 420px;
+            }
+            .hero-float.card-1 { left: 10px; bottom: -20px; }
+            .hero-float.card-2 { right: 10px; top: 20px; }
+        }
+
+        @media (max-width: 600px) {
+            .hero {
+                padding: 8rem 0 4rem;
+            }
+            .hero h1 {
+                font-size: 2.1rem;
+            }
+            .hero-actions .btn {
+                width: 100%;
+            }
+            .hero-img-frame img {
+                height: 320px;
+            }
+            .hero-float {
+                padding: 0.85rem 1rem;
+                max-width: 200px !important;
+            }
+            .float-icon {
+                width: 38px;
+                height: 38px;
+                font-size: 1rem;
+            }
+        }
+
+        /* ==========================================
+           6. MARQUEE STRIP
+           ========================================== */
+        .marquee-strip {
+            background: var(--brand-900);
+            padding: 1.25rem 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .marquee-track {
+            display: flex;
+            gap: 3rem;
+            animation: scroll 30s linear infinite;
+            white-space: nowrap;
+            width: max-content;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .marquee-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
+
+        .marquee-item i {
+            color: var(--gold-400);
+            font-size: 1rem;
+        }
+
+        .marquee-dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--gold-400);
+            opacity: 0.6;
+        }
+
+        /* ==========================================
+           7. ABOUT SECTION
+           ========================================== */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-visual {
+            position: relative;
+        }
+
+        .about-img-main {
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            border: 6px solid var(--surface);
+            position: relative;
+            z-index: 2;
+        }
+
+        .about-img-main img {
+            width: 100%;
+            height: 460px;
+            object-fit: cover;
+        }
+
+        .about-img-accent {
+            position: absolute;
+            bottom: -30px;
+            right: -30px;
+            width: 55%;
+            height: 55%;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+            border: 6px solid var(--surface);
+            z-index: 3;
+        }
+
+        .about-img-accent img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .about-badge {
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            background: var(--gold-500);
+            color: #fff;
+            padding: 1rem 1.5rem;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-gold);
+            z-index: 4;
+            text-align: center;
+        }
+
+        .about-badge .num {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 1;
+            display: block;
+        }
+
+        .about-badge .lbl {
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            opacity: 0.95;
+        }
+
+        .about-content .eyebrow {
+            margin-bottom: 1.25rem;
+        }
+
+        .about-content h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--ink);
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.25rem;
+        }
+
+        .about-content p {
+            font-size: 1.05rem;
+            color: var(--ink-muted);
+            margin-bottom: 1.25rem;
+            line-height: 1.75;
+        }
+
+        .about-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.9rem;
+            margin: 1.75rem 0 2rem;
+        }
+
+        .about-list-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--ink-soft);
+        }
+
+        .about-list-item i {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--brand-100);
+            color: var(--brand-600);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 900px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            .about-content h2 {
+                font-size: 2rem;
+            }
+            .about-img-main img {
+                height: 380px;
+            }
+            .about-img-accent {
+                width: 45%;
+                height: 45%;
+                right: -15px;
+                bottom: -15px;
+            }
+            .about-list {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ==========================================
+           8. SERVICES SECTION
+           ========================================== */
+        .services {
+            background: var(--surface-alt);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.75rem;
+        }
+
+        .service-card {
+            background: var(--surface);
+            border-radius: var(--radius-lg);
+            padding: 2.25rem 2rem;
+            border: 1px solid var(--border);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--brand-500), var(--gold-400));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .service-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--brand-200);
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 16px;
+            background: var(--brand-50);
+            color: var(--brand-600);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .service-card:hover .service-icon {
+            background: var(--brand-700);
+            color: #fff;
+            transform: rotate(-6deg) scale(1.05);
+        }
+
+        .service-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 0.75rem;
+        }
+
+        .service-card p {
+            font-size: 0.95rem;
+            color: var(--ink-muted);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .service-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #25D366;
+            transition: var(--transition);
+        }
+
+        .service-link:hover {
+            gap: 0.75rem;
+            color: #1EB855;
+        }
+
+        .service-link i {
+            transition: var(--transition);
+        }
+
+        .service-link:hover i {
+            transform: translateX(3px);
+        }
+
+        /* ==========================================
+           9. PROCESS SECTION
+           ========================================== */
+        .process {
+            background: var(--surface-warm);
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            position: relative;
+        }
+
+        .process-card {
+            background: var(--surface);
+            border-radius: var(--radius-lg);
+            padding: 2.5rem 1.75rem;
+            border: 1px solid var(--border);
+            text-align: center;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .process-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--brand-200);
+        }
+
+        .process-num {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--brand-600), var(--brand-800));
+            color: #fff;
+            font-family: var(--font-display);
+            font-size: 1.35rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            box-shadow: 0 8px 20px rgba(27, 75, 90, 0.25);
+            position: relative;
+        }
+
+        .process-num::after {
+            content: '';
+            position: absolute;
+            inset: -6px;
+            border-radius: 50%;
+            border: 2px dashed var(--brand-200);
+            animation: spin 20s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .process-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 0.65rem;
+        }
+
+        .process-card p {
+            font-size: 0.9rem;
+            color: var(--ink-muted);
+            line-height: 1.65;
+        }
+
+        @media (max-width: 992px) {
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 576px) {
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ==========================================
+           10. FEATURE BLOCKS (Interior/Exterior)
+           ========================================== */
+        .feature-section {
+            background: var(--surface);
+        }
+
+        .feature-block {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            margin-bottom: 5rem;
+        }
+
+        .feature-block:last-child {
+            margin-bottom: 0;
+        }
+
+        .feature-block.reverse {
+            direction: rtl;
+        }
+
+        .feature-block.reverse > * {
+            direction: ltr;
+        }
+
+        .feature-text .eyebrow {
+            margin-bottom: 1.25rem;
+        }
+
+        .feature-text h3 {
+            font-family: var(--font-display);
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--ink);
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.25rem;
+        }
+
+        .feature-text p {
+            font-size: 1.05rem;
+            color: var(--ink-muted);
+            margin-bottom: 1.75rem;
+            line-height: 1.75;
+        }
+
+        .feature-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin-bottom: 2rem;
+        }
+
+        .feature-tag {
+            background: var(--brand-50);
+            color: var(--brand-700);
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-full);
+            font-size: 0.82rem;
+            font-weight: 600;
+            border: 1px solid var(--brand-100);
+            transition: var(--transition);
+        }
+
+        .feature-tag:hover {
+            background: var(--brand-700);
+            color: #fff;
+            border-color: var(--brand-700);
+        }
+
+        .feature-img {
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            border: 6px solid var(--surface);
+            position: relative;
+        }
+
+        .feature-img img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .feature-img:hover img {
+            transform: scale(1.03);
+        }
+
+        @media (max-width: 900px) {
+            .feature-block,
+            .feature-block.reverse {
+                grid-template-columns: 1fr;
+                direction: ltr;
+                gap: 2.5rem;
+            }
+            .feature-text h3 {
+                font-size: 1.75rem;
+            }
+            .feature-img img {
+                height: 320px;
+            }
+        }
+
+        /* ==========================================
+           11. GALLERY
+           ========================================== */
+        .gallery {
+            background: var(--surface-alt);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            height: 280px;
+            box-shadow: var(--shadow-sm);
+            cursor: pointer;
+            background: var(--surface-alt);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(11, 29, 42, 0.9) 0%, rgba(11, 29, 42, 0) 60%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 1.5rem;
+            color: #fff;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .gallery-cat {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--gold-400);
+            margin-bottom: 0.25rem;
+        }
+
+        .gallery-title {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+
+        /* ==========================================
+           12. WHY CHOOSE US
+           ========================================== */
+        .why {
+            background: var(--surface);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.75rem;
+        }
+
+        .why-card {
+            background: var(--surface-warm);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            border: 1px solid var(--border-warm);
+            transition: var(--transition);
+            display: flex;
+            gap: 1.25rem;
+            align-items: flex-start;
+        }
+
+        .why-card:hover {
+            background: var(--surface);
+            box-shadow: var(--shadow-md);
+            border-color: var(--brand-200);
+            transform: translateY(-4px);
+        }
+
+        .why-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 14px;
+            background: var(--brand-100);
+            color: var(--brand-600);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            flex-shrink: 0;
+            transition: var(--transition);
+        }
+
+        .why-card:hover .why-icon {
+            background: var(--brand-700);
+            color: #fff;
+            transform: rotate(-6deg);
+        }
+
+        .why-content h3 {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 0.5rem;
+        }
+
+        .why-content p {
+            font-size: 0.9rem;
+            color: var(--ink-muted);
+            line-height: 1.65;
+        }
+
+        /* ==========================================
+           13. CONTACT SECTION
+           ========================================== */
+        .contact {
+            background: linear-gradient(135deg, var(--brand-900) 0%, var(--brand-800) 100%);
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact::before {
+            content: '';
+            position: absolute;
+            top: -200px;
+            right: -200px;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(79, 168, 190, 0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .contact::after {
+            content: '';
+            position: absolute;
+            bottom: -200px;
+            left: -200px;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(212, 160, 23, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .contact-grid {
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .contact-info .eyebrow {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--gold-300);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .contact-info .eyebrow::before {
+            background: var(--gold-400);
+        }
+
+        .contact-info h2 {
+            font-family: var(--font-display);
+            font-size: 2.75rem;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.25rem;
+        }
+
+        .contact-info > p {
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 1.05rem;
+            line-height: 1.75;
+            margin-bottom: 2.5rem;
+        }
+
+        .contact-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.25rem;
+        }
+
+        .contact-item-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 14px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold-400);
+            font-size: 1.2rem;
+            flex-shrink: 0;
+            transition: var(--transition);
+        }
+
+        .contact-item:hover .contact-item-icon {
+            background: var(--gold-500);
+            color: #fff;
+            border-color: var(--gold-500);
+            transform: translateY(-2px);
+        }
+
+        .contact-item-text {
+            flex: 1;
+        }
+
+        .contact-item-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--gold-400);
+            margin-bottom: 0.25rem;
+        }
+
+        .contact-item-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.4;
+        }
+
+        .contact-item-value a {
+            color: #fff;
+        }
+
+        .contact-item-value a:hover {
+            color: var(--gold-300);
+        }
+
+        .contact-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-xl);
+            padding: 2.5rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .contact-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.75rem;
+        }
+
+        .contact-card > p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        .contact-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+        }
+
+        .contact-actions .btn {
+            width: 100%;
+            justify-content: center;
+        }
+
+        @media (max-width: 900px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            .contact-info h2 {
+                font-size: 2rem;
+            }
+        }
+
+        /* ==========================================
+           14. FOOTER
+           ========================================== */
+        .site-footer {
+            background: #08141D;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 4.5rem 0 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1.5fr;
+            gap: 3rem;
+            margin-bottom: 3.5rem;
+        }
+
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-brand .brand {
+            color: #fff;
+            margin-bottom: 1.25rem;
+        }
+
+        .footer-brand .brand .brand-text .name {
+            color: #fff;
+        }
+
+        .footer-brand .brand .brand-text .tag {
+            color: var(--gold-400);
+        }
+
+        .footer-brand p {
+            font-size: 0.92rem;
+            line-height: 1.7;
+            max-width: 340px;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .footer-social a {
+            width: 42px;
+            height: 42px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .footer-social a:hover {
+            background: var(--brand-600);
+            color: #fff;
+            border-color: var(--brand-600);
+            transform: translateY(-3px);
+        }
+
+        .footer-title {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.3px;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .footer-links a {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .footer-links a i {
+            font-size: 0.7rem;
+            color: var(--gold-400);
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: #fff;
+            padding-left: 4px;
+        }
+
+        .footer-contact {
+            display: flex;
+            flex-direction: column;
+            gap: 1.1rem;
+        }
+
+        .footer-contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.9rem;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .footer-contact-item i {
+            color: var(--gold-400);
+            font-size: 1rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+        }
+
+        .footer-contact-item a {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .footer-contact-item a:hover {
+            color: var(--gold-300);
+        }
+
+        .footer-bottom {
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        @media (max-width: 900px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        /* ==========================================
+           15. BACK TO TOP
+           ========================================== */
+        .back-to-top {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--brand-700);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-lg);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: var(--transition);
+            z-index: 999;
+            font-size: 1.05rem;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .back-to-top:hover {
+            background: var(--gold-500);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-gold);
+        }
+
+        /* ==========================================
+           16. SCROLL ANIMATIONS
+           ========================================== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ==========================================
+           17. FLOATING WHATSAPP
+           ========================================== */
+        .wa-float {
+            position: fixed;
+            bottom: 90px;
+            right: 25px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: #25D366;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            box-shadow: 0 12px 30px rgba(37, 211, 102, 0.4);
+            z-index: 998;
+            transition: var(--transition);
+            animation: pulse-wa 3s ease-in-out infinite;
+        }
+
+        .wa-float:hover {
+            background: #1EB855;
+            transform: scale(1.1) translateY(-3px);
+            animation: none;
+        }
+
+        @keyframes pulse-wa {
+            0%, 100% { box-shadow: 0 12px 30px rgba(37, 211, 102, 0.4); }
+            50% { box-shadow: 0 12px 40px rgba(37, 211, 102, 0.65); }
+        }
+
+        @media (max-width: 600px) {
+            .wa-float {
+                width: 50px;
+                height: 50px;
+                font-size: 1.4rem;
+                bottom: 80px;
+                right: 18px;
+            }
+            .back-to-top {
+                width: 44px;
+                height: 44px;
+                bottom: 18px;
+                right: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ==========================================
+         HEADER
+         ========================================== -->
+    <header class="site-header" id="siteHeader">
+        <div class="container nav-wrap">
+            <a href="#home" class="brand">
+                <div class="brand-mark">
+                    <i class="fas fa-paint-roller"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="name">Wall Painter</span>
+                    <span class="tag">Karachi Services</span>
+                </div>
+            </a>
+
+            <nav class="primary-nav" id="primaryNav">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#interior">Interior</a></li>
+                    <li><a href="#exterior">Exterior</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#why">Why Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="tel:+923060300718" class="nav-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>0306 0300718</span>
+                </a>
+                <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20a%20quote%20for%20painting%20work." target="_blank" rel="noopener" class="btn btn-whatsapp" style="padding: 0.7rem 1.35rem; font-size: 0.88rem;">
+                    <i class="fab fa-whatsapp"></i>
+                    Get Quote
+                </a>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO
+         ========================================== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content reveal">
+                    <div class="hero-eyebrow">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Laloo Khait, Liaquatabad Town, Karachi
+                    </div>
+
+                    <h1>
+                        Fresh Walls.<br>
+                        <span class="accent">Beautiful Spaces.</span><br>
+                        Professional Finish.
+                    </h1>
+
+                    <p class="hero-sub">
+                        Expert wall painting, repainting, and surface preparation for homes, offices, and commercial spaces across Karachi. Quality work, clean execution, direct communication.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20a%20quote%20for%20painting%20work." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+                            <i class="fab fa-whatsapp"></i>
+                            Get a Quote on WhatsApp
+                        </a>
+                        <a href="#services" class="btn btn-outline btn-lg">
+                            <i class="fas fa-th-large"></i>
+                            View Services
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="trust-item">
+                            <i class="fas fa-check"></i>
+                            Interior & Exterior
+                        </div>
+                        <div class="trust-item">
+                            <i class="fas fa-check"></i>
+                            Neat Finishing
+                        </div>
+                        <div class="trust-item">
+                            <i class="fas fa-check"></i>
+                            Residential & Commercial
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="hero-img-frame">
+                        <img src="https://images.unsplash.com/photo-1693985120993-e9b203ce7631?w=800&auto=format&fit=crop&q=80" alt="Professional painter applying fresh paint to a wall with a roller">
+                    </div>
+
+                    <div class="hero-float card-1">
+                        <div class="float-icon teal">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="float-text">
+                            <strong>Color Consultation</strong>
+                            <span>Free shade guidance</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-float card-2">
+                        <div class="float-icon gold">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="float-text">
+                            <strong>Quality Finish</strong>
+                            <span>Attention to detail</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         MARQUEE
+         ========================================== -->
+    <div class="marquee-strip">
+        <div class="marquee-track">
+            <span class="marquee-item"><i class="fas fa-paint-roller"></i> Interior Wall Painting</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-building"></i> Exterior Wall Painting</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-home"></i> Complete House Painting</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-briefcase"></i> Office & Commercial</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-tools"></i> Surface Preparation</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-sync-alt"></i> Wall Repainting</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-paint-roller"></i> Interior Wall Painting</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-building"></i> Exterior Wall Painting</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-home"></i> Complete House Painting</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-briefcase"></i> Office & Commercial</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-tools"></i> Surface Preparation</span>
+            <span class="marquee-dot"></span>
+            <span class="marquee-item"><i class="fas fa-sync-alt"></i> Wall Repainting</span>
+            <span class="marquee-dot"></span>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         ABOUT
+         ========================================== -->
+    <section class="section-pad" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual reveal">
+                    <div class="about-img-main">
+                        <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=800&q=80" alt="Painter preparing equipment for wall painting job">
+                    </div>
+                    <div class="about-img-accent">
+                        <img src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=600&q=80" alt="Freshly painted interior wall">
+                    </div>
+                    <div class="about-badge">
+                        <span class="num">15+</span>
+                        <span class="lbl">Years<br>Experience</span>
+                    </div>
+                </div>
+
+                <div class="about-content reveal">
+                    <span class="eyebrow">About Our Business</span>
+                    <h2>Dedicated Wall Painting Services in Karachi</h2>
+
+                    <p>
+                        Wall Painter Services provides reliable and careful painting solutions tailored for residential homes, individual rooms, offices, and commercial establishments in Karachi.
+                    </p>
+                    <p>
+                        Based in Laloo Khait, Liaquatabad Town, we focus on delivering neat, attractive finishes that refresh and protect your property. Whether it's a full house repainting, a fresh color for a single bedroom, or proper surface preparation to cover cracks, we handle each job with meticulous attention to detail.
+                    </p>
+
+                    <div class="about-list">
+                        <div class="about-list-item">
+                            <i class="fas fa-check"></i>
+                            Residential Wall Painting
+                        </div>
+                        <div class="about-list-item">
+                            <i class="fas fa-check"></i>
+                            Commercial & Office Painting
+                        </div>
+                        <div class="about-list-item">
+                            <i class="fas fa-check"></i>
+                            Thorough Surface Preparation
+                        </div>
+                        <div class="about-list-item">
+                            <i class="fas fa-check"></i>
+                            Color & Shade Guidance
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20discuss%20a%20painting%20project." target="_blank" rel="noopener" class="btn btn-brand">
+                        <i class="fab fa-whatsapp"></i>
+                        Contact via WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SERVICES
+         ========================================== -->
+    <section class="section-pad services" id="services">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">What We Offer</span>
+                <h2>Comprehensive Wall Painting Services</h2>
+                <p>From single room touch-ups to full exterior property painting, we provide standard and customized painting solutions.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- 1 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>Interior Wall Painting</h3>
+                    <p>Professional painting for bedrooms, living rooms, hallways, kitchens, and all interior living areas with clean lines and minimal mess.</p>
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Interior%20Wall%20Painting." target="_blank" rel="noopener" class="service-link">
+                        Inquire on WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- 2 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Exterior Wall Painting</h3>
+                    <p>Durable exterior wall coatings that enhance curb appeal and protect building surfaces against weather elements.</p>
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Exterior%20Wall%20Painting." target="_blank" rel="noopener" class="service-link">
+                        Inquire on WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- 3 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>House Painting</h3>
+                    <p>Complete painting services for residential homes, villas, and apartments tailored to your preferred style and colors.</p>
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Complete%20House%20Painting." target="_blank" rel="noopener" class="service-link">
+                        Inquire on WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- 4 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Office Painting</h3>
+                    <p>Clean, swift, and professional painting for office spaces, meeting rooms, and corporate work areas.</p>
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Office%20Painting." target="_blank" rel="noopener" class="service-link">
+                        Inquire on WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- 5 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Commercial Painting</h3>
+                    <p>Painting solutions for retail shops, showrooms, restaurants, and commercial venues across Karachi.</p>
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Commercial%20Painting." target="_blank" rel="noopener" class="service-link">
+                        Inquire on WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- 6 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Ceiling Painting</h3>
+                    <p>Careful overhead painting and whitening for ceilings to brighten indoor rooms and remove discolored patches.</p>
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Ceiling%20Painting." target="_blank" rel="noopener" class="service-link">
+                        Inquire on WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- 7 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Wall Repainting</h3>
+                    <p>Refreshing older, faded, or discolored walls with fresh coats of premium quality interior or exterior paint.</p>
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Wall%20Repainting." target="_blank" rel="noopener" class="service-link">
+                        Inquire on WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- 8 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Wall Touch-Ups</h3>
+                    <p>Targeted repainting for small wall sections, scuffs, water stain repair areas, and localized wall damage.</p>
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Wall%20Touch-Ups." target="_blank" rel="noopener" class="service-link">
+                        Inquire on WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- 9 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Surface Preparation</h3>
+                    <p>Essential scraping, wall filling, sanding, and priming to ensure paint adheres properly and lasts longer.</p>
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Surface%20Preparation." target="_blank" rel="noopener" class="service-link">
+                        Inquire on WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         PROCESS
+         ========================================== -->
+    <section class="section-pad process" id="process">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">How We Work</span>
+                <h2>Our 4-Step Painting Process</h2>
+                <p>We keep our process straightforward and transparent from your first inquiry to the finished coat.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-card reveal">
+                    <div class="process-num">1</div>
+                    <h3>Contact Us</h3>
+                    <p>Call or send a WhatsApp message describing your painting needs, room sizes, or location in Karachi.</p>
+                </div>
+
+                <div class="process-card reveal">
+                    <div class="process-num">2</div>
+                    <h3>Discuss Your Space</h3>
+                    <p>Share specifics regarding your property type, wall conditions, and whether you require interior or exterior work.</p>
+                </div>
+
+                <div class="process-card reveal">
+                    <div class="process-num">3</div>
+                    <h3>Choose Your Colors</h3>
+                    <p>Select suitable color combinations, paint types, and finishes that fit your space and lighting preferences.</p>
+                </div>
+
+                <div class="process-card reveal">
+                    <div class="process-num">4</div>
+                    <h3>Painting & Finishing</h3>
+                    <p>We execute the surface preparation and painting with care, focusing on neat edges and clean final appearance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         INTERIOR FEATURE
+         ========================================== -->
+    <section class="section-pad feature-section" id="interior">
+        <div class="container">
+            <div class="feature-block">
+                <div class="feature-text reveal">
+                    <span class="eyebrow">Indoor Focus</span>
+                    <h3>Interior Wall Painting</h3>
+                    <p>
+                        A fresh coat of paint can dramatically brighten and transform interior spaces. We focus on proper masking, floor protection, and careful paint application for smooth wall finishes in living spaces and workplaces.
+                    </p>
+
+                    <div class="feature-tags">
+                        <span class="feature-tag">Bedrooms</span>
+                        <span class="feature-tag">Living Rooms</span>
+                        <span class="feature-tag">Dining Areas</span>
+                        <span class="feature-tag">Hallways</span>
+                        <span class="feature-tag">Feature Accent Walls</span>
+                        <span class="feature-tag">Office Cabins</span>
+                    </div>
+
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20book%20interior%20wall%20painting." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        Inquire for Interior Painting
+                    </a>
+                </div>
+
+                <div class="feature-img reveal">
+                    <img src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=800&q=80" alt="Freshly painted modern interior living room wall">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         EXTERIOR FEATURE
+         ========================================== -->
+    <section class="section-pad feature-section" id="exterior" style="background: var(--surface-alt);">
+        <div class="container">
+            <div class="feature-block reverse">
+                <div class="feature-text reveal">
+                    <span class="eyebrow gold">Outdoor Protection</span>
+                    <h3>Exterior Wall Painting</h3>
+                    <p>
+                        Exterior building surfaces in Karachi endure harsh sunlight, dust, and rain. Our exterior painting services prepare weather-exposed boundary walls and outer facades with durable coatings designed to refresh your property's appearance.
+                    </p>
+
+                    <div class="feature-tags">
+                        <span class="feature-tag">House Facades</span>
+                        <span class="feature-tag">Boundary Walls</span>
+                        <span class="feature-tag">Commercial Frontage</span>
+                        <span class="feature-tag">Exterior Repainting</span>
+                        <span class="feature-tag">Weather Protection</span>
+                    </div>
+
+                    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20inquire%20about%20exterior%20wall%20painting." target="_blank" rel="noopener" class="btn btn-gold">
+                        <i class="fab fa-whatsapp"></i>
+                        Inquire for Exterior Painting
+                    </a>
+                </div>
+
+                <div class="feature-img reveal">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Freshly painted white exterior building walls">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         GALLERY
+         ========================================== -->
+    <section class="section-pad gallery" id="gallery">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">Visual Overview</span>
+                <h2>Painting Work & Spaces</h2>
+                <p>Explore examples of painted interior spaces, exterior surfaces, tools, and color applications.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=600&q=80" alt="Painting supplies including paint buckets, tray, and brushes" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-cat">Equipment</div>
+                        <div class="gallery-title">Paint Preparation & Setup</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=600&q=80" alt="Modern room with freshly painted blue accent wall" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-cat">Interior Living</div>
+                        <div class="gallery-title">Accent Wall Finish</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=600&q=80" alt="Bright freshly painted white interior bedroom wall" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-cat">Residential</div>
+                        <div class="gallery-title">Clean White Bedroom</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80" alt="Exterior house wall painting detail with smooth paint finish" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-cat">Exterior</div>
+                        <div class="gallery-title">Exterior Facade Finish</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1595814433015-e6f5ce69614e?auto=format&fit=crop&w=600&q=80" alt="Painter rolling fresh paint onto interior wall" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-cat">In Progress</div>
+                        <div class="gallery-title">Roller Application</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=600&q=80" alt="Modern freshly painted living room with warm tones" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-cat">Interior</div>
+                        <div class="gallery-title">Warm Tone Living Room</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Bright modern home exterior with fresh paint" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-cat">Exterior</div>
+                        <div class="gallery-title">Modern Home Exterior</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80" alt="Beautifully painted contemporary bedroom interior" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-cat">Residential</div>
+                        <div class="gallery-title">Contemporary Bedroom</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         WHY CHOOSE US
+         ========================================== -->
+    <section class="section-pad why" id="why">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">Our Commitments</span>
+                <h2>Why Choose Wall Painter Services</h2>
+                <p>Key features that make our painting services straightforward and dependable for Karachi clients.</p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fas fa-check-double"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Neat & Clean Finishing</h3>
+                        <p>We pay attention to smooth paint coverage, straight border lines, and keeping surrounding furniture protected.</p>
+                    </div>
+                </div>
+
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Interior & Exterior</h3>
+                        <p>Versatile painting solutions suited for indoor rooms as well as outdoor building surfaces.</p>
+                    </div>
+                </div>
+
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Color-Focused Guidance</h3>
+                        <p>Assistance in selecting appropriate shades and finishes to complement your room's natural lighting.</p>
+                    </div>
+                </div>
+
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Residential & Commercial</h3>
+                        <p>Services organized for residential homes, apartments, retail outlets, and office spaces.</p>
+                    </div>
+                </div>
+
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Direct Communication</h3>
+                        <p>Speak directly with the service provider via WhatsApp or Phone to discuss job requirements quickly.</p>
+                    </div>
+                </div>
+
+                <div class="why-card reveal">
+                    <div class="why-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Local Karachi Service</h3>
+                        <p>Conveniently based in Laloo Khait Block 10, Liaquatabad Town, serving nearby neighborhoods across Karachi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACT
+         ========================================== -->
+    <section class="section-pad contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <span class="eyebrow">Get In Touch</span>
+                    <h2>Give Your Walls a Fresh New Look</h2>
+                    <p>
+                        Contact Wall Painter Services to discuss your residential or commercial painting requirements, request a quote, or schedule a color discussion.
+                    </p>
+
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-item-text">
+                                <div class="contact-item-label">Phone Number</div>
+                                <div class="contact-item-value"><a href="tel:+923060300718">0306 0300718</a></div>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-item-text">
+                                <div class="contact-item-label">WhatsApp Direct</div>
+                                <div class="contact-item-value"><a href="https://wa.me/923060300718" target="_blank" rel="noopener">+92 306 0300718</a></div>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-item-text">
+                                <div class="contact-item-label">Location Address</div>
+                                <div class="contact-item-value">Laloo Khait Block 10, Liaquatabad Town, Karachi, Pakistan</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-card reveal">
+                    <h3>Quick Direct Inquiry</h3>
+                    <p>Click below to open WhatsApp or make a direct phone call to get in touch immediately.</p>
+
+                    <div class="contact-actions">
+                        <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20inquire%20about%20your%20wall%20painting%20services." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp Us Now
+                        </a>
+
+                        <a href="tel:+923060300718" class="btn btn-gold">
+                            <i class="fas fa-phone-alt"></i>
+                            Call: 0306 0300718
+                        </a>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Laloo+Khait+Block+10,+Liaquatabad+Town,+Karachi,+Pakistan" target="_blank" rel="noopener" class="btn btn-ghost">
+                            <i class="fas fa-directions"></i>
+                            Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="brand">
+                        <div class="brand-mark">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <div class="brand-text">
+                            <span class="name">Wall Painter</span>
+                            <span class="tag">Karachi Services</span>
+                        </div>
+                    </a>
+                    <p>
+                        Professional interior, exterior, house, and commercial wall painting services in Laloo Khait, Liaquatabad Town, Karachi.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/923060300718" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#home"><i class="fas fa-chevron-right"></i> Home</a>
+                        <a href="#about"><i class="fas fa-chevron-right"></i> About</a>
+                        <a href="#services"><i class="fas fa-chevron-right"></i> Services</a>
+                        <a href="#process"><i class="fas fa-chevron-right"></i> Process</a>
+                        <a href="#interior"><i class="fas fa-chevron-right"></i> Interior</a>
+                        <a href="#exterior"><i class="fas fa-chevron-right"></i> Exterior</a>
+                        <a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a>
+                        <a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Contact Us</h4>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>Phone: <a href="tel:+923060300718">0306 0300718</a></span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp: <a href="https://wa.me/923060300718" target="_blank" rel="noopener">+92 306 0300718</a></span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Laloo Khait Block 10, Liaquatabad Town, Karachi, Pakistan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>© 2026 Wall Painter Services. All rights reserved.</div>
+                <div>Laloo Khait, Liaquatabad Town, Karachi, Pakistan</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/923060300718?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20a%20quote%20for%20painting%20work." target="_blank" rel="noopener" class="wa-float" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ==========================================
+         JAVASCRIPT
+         ========================================== -->
+    <script>
+        (function() {
+            'use strict';
+
+            // DOM Elements
+            const header = document.getElementById('siteHeader');
+            const menuToggle = document.getElementById('menuToggle');
+            const primaryNav = document.getElementById('primaryNav');
+            const navLinks = document.querySelectorAll('.primary-nav a');
+            const backToTop = document.getElementById('backToTop');
+            const sections = document.querySelectorAll('section[id]');
+
+            // --- Mobile Menu Toggle ---
+            if (menuToggle) {
+                menuToggle.addEventListener('click', function() {
+                    this.classList.toggle('open');
+                    primaryNav.classList.toggle('open');
+                    document.body.style.overflow = primaryNav.classList.contains('open') ? 'hidden' : '';
+                });
+            }
+
+            // Close menu when a link is clicked
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    menuToggle.classList.remove('open');
+                    primaryNav.classList.remove('open');
+                    document.body.style.overflow = '';
+                });
+            });
+
+            // Close menu on outside click
+            document.addEventListener('click', (e) => {
+                if (primaryNav.classList.contains('open') &&
+                    !primaryNav.contains(e.target) &&
+                    !menuToggle.contains(e.target)) {
+                    menuToggle.classList.remove('open');
+                    primaryNav.classList.remove('open');
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // --- Scroll Effects ---
+            let ticking = false;
+
+            function onScroll() {
+                const scrollY = window.pageYOffset;
+
+                // Header shadow
+                if (scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+
+                // Back to top visibility
+                if (scrollY > 400) {
+                    backToTop.classList.add('show');
+                } else {
+                    backToTop.classList.remove('show');
+                }
+
+                // Active nav link
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 150;
+                    const sectionHeight = section.offsetHeight;
+                    if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+
+                ticking = false;
+            }
+
+            window.addEventListener('scroll', () => {
+                if (!ticking) {
+                    window.requestAnimationFrame(onScroll);
+                    ticking = true;
+                }
+            }, { passive: true });
+
+            // --- Back to Top ---
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // --- Scroll Reveal Animation ---
+            const revealElements = document.querySelectorAll('.reveal');
+
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -60px 0px'
+            });
+
+            revealElements.forEach(el => revealObserver.observe(el));
+
+            // --- Smooth Scroll for Anchor Links ---
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        e.preventDefault();
+                        const headerOffset = header.offsetHeight;
+                        const elementPosition = target.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // --- Console Branding ---
+            console.log(
+                '%c Wall Painter Services ',
+                'background: #12303F; color: #E6B943; font-size: 18px; font-weight: bold; padding: 8px 16px; border-radius: 6px;'
+            );
+            console.log(
+                '%c Karachi · 0306 0300718 ',
+                'color: #2E8BA3; font-size: 12px; padding: 4px;'
+            );
+
+        })();
+    </script>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Wall Painter Services",
+        "description": "Professional interior, exterior, house, and commercial wall painting services in Laloo Khait, Liaquatabad Town, Karachi.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Laloo Khait Block 10, Liaquatabad Town",
+            "addressLocality": "Karachi",
+            "addressRegion": "Sindh",
+            "addressCountry": "PK"
+        },
+        "telephone": "+923060300718",
+        "priceRange": "$$",
+        "areaServed": "Karachi",
+        "serviceType": [
+            "Interior Wall Painting",
+            "Exterior Wall Painting",
+            "House Painting",
+            "Office Painting",
+            "Commercial Painting",
+            "Wall Repainting",
+            "Surface Preparation"
+        ]
+    }
+    </script>
+</body>
+</html>
